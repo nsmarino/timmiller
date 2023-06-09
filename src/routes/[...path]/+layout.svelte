@@ -18,7 +18,7 @@
     <slot />
   </main>
 
-  <footer class="center">© Acme Corporation 2022</footer>
+  <footer class="center">Footer</footer>
 </div>
 
 <style>

@@ -1,5 +1,8 @@
 <script>
+  import * as prismicH from '@prismicio/helpers';
+
   export let slice
+
 </script>
 
-<pre>Fun Heading Slice</pre>
+<h2>{slice.primary.text}</h2>

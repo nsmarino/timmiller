@@ -1,5 +1,9 @@
+<!-- src/lib/TextBlock.svelte -->
+
 <script>
-  export let slice
+  import * as prismicH from '@prismicio/helpers';
+	
+  export let slice;
 </script>
 
-<pre>Text Block Slice</pre>
+{@html prismicH.asHTML(slice.primary.text)}
